@@ -15,7 +15,7 @@ def preprocess_input(seq):
     return [dna_to_int.get(base, 0) for base in seq]
 
 
-st.title('CpG Predictor')
+st.title('CpG Detector')
 st.write('This app predicts the number of CpG sites in a given DNA sequence.')
 
 # Input DNA sequence

@@ -1,0 +1,7 @@
+venv4/
+
+*.pyc
+__pycache__/
+
+
+CpG_Detector(S).ipynb
